@@ -1,0 +1,11 @@
+.price {
+
+    color: #FF136F;
+
+}
+
+.buy-button {
+    background-image: linear-gradient(#FF589B, #FF136F);
+    color: white;
+
+}
