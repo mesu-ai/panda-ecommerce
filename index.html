@@ -5,11 +5,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- boostrap css -->
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
     <title>Panda Ecommerce</title>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/e15939fd59.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        .price {
+
+            color: #FF136F;
+
+        }
+
+        .buy-button {
+            background-image: linear-gradient(#FF589B, #FF136F);
+            color: white;
+
+        }
+    </style>
+
+
 </head>
 
 <body>
+    <header>
 
+        <!-- navbar start -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                    <form class="d-flex mt-lg-0 mt-5 ">
+                        <input class="form-control ms-lg-5 rounded-pill d-inline-block" type="search"
+                            placeholder="Search" aria-label="Search">
+
+                    </form>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-lg-row flex-column align-items-center ">
+                        <li class="nav-item">
+                            <a class="nav-link fs-3 fw-normal text-light ms-3" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-3 fw-normal text-light ms-3" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-3 fw-normal text-light ms-3" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-3 fw-normal text-light ms-3" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- navbar end -->
+    </header>
+
+    <!-- carousel start -->
+    <div class="container mt-5 p-5 rounded" style="background: #FEEAE9;
+    ">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+
+            <div class="carousel-inner ">
+
+                <div class="carousel-item active">
+
+                    <div class="row d-flex align-items-center">
+                        <div class="col-7">
+
+                            <h1 class="fw-bold">Mi LED TV 4A PRO 32</h1>
+                            <p class="mt-3">This is the best tv in the world for people who just want to waste time in
+                                front of tv.
+                            </p>
+                            <h1 class="price mt-4">$1200</h1>
+                            <button class="btn buy-button mt-3 fs-4">Buy Now
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </button>
+
+                        </div>
+                        <div class="col-5">
+                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-7">
+
+                            <h1 class="fw-bold">Cool Dude Headphone
+                            </h1>
+                            <p class="mt-3">This is the best headphone in the world for people who just want to waste
+                                time in front of funky world.
+
+                            </p>
+                            <h1 class="price mt-4">$400</h1>
+                            <button class="btn buy-button mt-3 fs-4">Buy Now
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </button>
+
+                        </div>
+                        <div class="col-5">
+                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-7">
+
+                            <h1 class="fw-bold">X-Box for your living room
+                            </h1>
+                            <p class="mt-3">This is the best x-box in the world for people who just want to waste time
+                                in front of fake sports.
+                            </p>
+                            <h1 class="price mt-4">$600</h1>
+                            <button class="btn buy-button mt-3 fs-4">Buy Now
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </button>
+
+                        </div>
+                        <div class="col-5">
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- carousel end -->
+
+
+
+    <script src="bootsrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
