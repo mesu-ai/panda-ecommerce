@@ -1,3 +1,9 @@
+
+body{
+    background-color:white;
+    
+}
+
 .price {
 
     color: #FF136F;
@@ -8,4 +14,8 @@
     background-image: linear-gradient(#FF589B, #FF136F);
     color: white;
 
+}
+
+.product{
+    background-color: #F4F4F4;
 }
